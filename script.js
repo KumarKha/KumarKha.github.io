@@ -40,7 +40,7 @@ form.addEventListener('submit', (e) => {
 // Separate Input in to part and add reformating to Object
 const handleInput = (input) => {
   let arr = input.value.split(',');
-
+  //test
   return new Coordinate(arr[0], arr[1]);
 };
 
